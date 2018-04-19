@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilePage">
+
+
+    <EditText
+
+        android:id="@+id/edit_name"
+        style="@style/mystyle"
+        android:hint="Enter your name here"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <EditText
+
+        android:id="@+id/edit_username"
+        style="@style/mystyle"
+        android:hint="Enter Username here"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <EditText
+
+        android:id="@+id/edit_birthday"
+        style="@style/mystyle"
+        android:hint="Enter your birthday"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <EditText
+
+        android:id="@+id/edit_interest"
+        style="@style/mystyle"
+        android:hint="Enter your interest"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <Button
+        android:id="@+id/btn"
+        style="@style/mystyle"
+        android:text="Accept changes"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="103dp"
+        android:layout_height="99dp"
+        app:srcCompat="@drawable/blankprofile"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+</android.support.constraint.ConstraintLayout>

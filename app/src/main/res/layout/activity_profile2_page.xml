@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile2Page">
+
+
+    <TextView
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:text="@string/your_username_is"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+
+        android:id="@+id/text_username"
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:text=""
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:text="@string/your_name_is"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <TextView
+        android:id="@+id/text_name"
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:text=""
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <TextView
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:text="@string/your_birthday_is"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/text_birthday"
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:text=""
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:text="@string/your_interests_are"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <TextView
+        android:id="@+id/text_interest"
+        style="@style/mystyle"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:text=""
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="81dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/blankprofile"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+</android.support.constraint.ConstraintLayout>

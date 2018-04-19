@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProfileProject</string>
+    <string name="your_username_is">Your Username Is:</string>
+    <string name="your_name_is">Your Name Is</string>
+    <string name="your_birthday_is">Your Birthday Is</string>
+    <string name="your_interests_are">Your Interests Are:</string>
+</resources>
